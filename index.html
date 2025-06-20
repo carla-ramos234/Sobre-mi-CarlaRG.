@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio Creativo</title>
+  <!-- Bootstrap CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  />
+  <style>
+    body {
+      background: #b9fff7; /* Fondo original */
+    }
+    /* Estilos nuevos para header y navbar */
+    .header-bg {
+      background: #ff8ffd;
+      padding: 2rem 0 1rem 0;
+      text-align: center;
+    }
+    .profile-img {
+      width: 230px;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 6px solid #222;
+      margin-top: -110px;
+      background: #c08fff;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    }
+    .navbar {
+      background-color: #c08fff !important;
+    }
+    .navbar-brand {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #fff !important;
+    }
+    .nav-link {
+      color: #ffffff !important;
+    }
+    .nav-link:hover {
+      color: #fff !important;
+      opacity: 0.8;
+    }
+
+    /* Botón verde agua personalizado */
+    .btn-verde-agua {
+      background-color: #7dedf7;
+      color: white;
+      border: none;
+    }
+    .btn-verde-agua:hover {
+      background-color: #17a589;
+      color: white;
+    }
+    .texto-boton-container {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      justify-content: start;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 767.98px) {
+      .texto-boton-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .section-pink {
+      background: #ffbada;
+      padding: 2rem 0;
+    }
+    .section-mint {
+      background: #b9fff7;
+      padding: 2rem 0;
+    }
+    .section-lilac {
+      background: #c08fff;
+      padding: 2rem 0;
+    }
+    .section-footer {
+      background: #b9fff7;
+      padding: 2rem 0 1rem 0;
+      text-align: center;
+    }
+    .box {
+      background: #b9fff7;
+      border-radius: 18px;
+      padding: 1.2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    }
+    .title {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: .5rem;
+    }
+    .icon-social {
+      font-size: 2.2rem;
+      margin: 0 1rem;
+      color: #222;
+      transition: color .2s;
+    }
+    .icon-social:hover {
+      color: #c08fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Menú superior -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">C</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuSuperior"
+        aria-controls="menuSuperior"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="menuSuperior">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Trabajos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sobre mí</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <div class="header-bg">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Texto primero en móvil, imagen después -->
+        <div class="col-12 col-md-9 order-1 order-md-2 text-md-start text-center mt-3 mt-md-0">
+          <p class="mb-3" style="color: #ffffff; font-size: 1.4rem;">
+            Diseñadora apasionada con amplia experiencia creando piezas impactantes
+            para campañas publicitarias. <br />
+            ¡Hablemos y hagamos que tus ideas cobren vida!
+          </p>
+          <div class="texto-boton-container">
+            <button type="button" class="btn btn-verde-agua btn-sm">
+              Contáctame
+            </button>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 order-2 order-md-1 text-md-start text-center">
+          <img
+            src="./assets/carla.PNG"
+            alt="Perfil"
+            class="profile-img mt-4"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRIMERA PARTE-->
+  <div class="section-pink">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-12 col-md-4">
+          <div class="box h-100">
+            <div class="title">¿Quién soy?</div>
+            <div>Soy una apasionada del diseño gráfico y estudiante en la Universidad. Creativa, curiosa y fanática del branding.</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="box h-100">
+            <div class="title">Experiencia</div>
+            <div>A lo largo de mi formación he participado en campañas publicitarias, diseño de identidad visual y creación de contenido digital y editorial.</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="box h-100">
+            <div class="title">¿Qué me hace diferente?</div>
+            <div>Lo que me diferencia es la combinación de creatividad con enfoque estratégico, logrando piezas únicas y efectivas que conectan con tu audiencia y transmiten tus valores significativos.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Servicios -->
+  <div class="section-mint">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-12 col-md-4">
+          <div class="box h-100" style="background:#c08fff;">
+            <div class="title">1. Diseño de identidad visual</div>
+            <div>Transformo tu imagen y esencia en una identidad visual única que conecta con tu público.</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="box h-100" style="background:#c08fff;">
+            <div class="title">2. Diseño de redes sociales</div>
+            <div>Contenido atractivo y de impacto para tus redes sociales, alineado a tu marca y objetivos.</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="box h-100" style="background:#c08fff;">
+            <div class="title">3. Diseño publicitario</div>
+            <div>Piezas publicitarias que potencian tu marca y generan resultados efectivos.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonios -->
+  <div class="section-lilac">
+    <div class="container">
+      <div class="title text-white mb-4">Testimonios:</div>
+      <div class="row g-4">
+        <div class="col-12 col-md-6">
+          <div class="box">
+            <img src="./assets/evi1.jpeg" alt="Testimonio 1" class="img-fluid mb-2" />
+            <div><b>María González</b></div>
+            <div>“Excelente trabajo, superó mis expectativas en la campaña.”</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="box">
+            <img src="./assets/evi2.jpeg" alt="Testimonio 2" class="img-fluid mb-2" />
+            <div><b>Juan Pérez</b></div>
+            <div>“Muy profesional y creativa. Recomiendo totalmente.”</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Trabajos realizados -->
+  <div class="section-pink">
+    <div class="container">
+      <div class="title mb-4">Trabajos realizados:</div>
+      <div class="row g-3">
+        <div class="col-6 col-md-3">
+          <img src="./assets/trabajo2.jpeg" alt="Trabajo 1" class="img-fluid box" />
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./assets/trabajo1.png" alt="Trabajo 2" class="img-fluid box" />
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./assets/trabajo4.jpeg" alt="Trabajo 3" class="img-fluid box" />
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="./assets/trabajo3.jpeg" alt="Trabajo 4" class="img-fluid box" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="section-footer">
+    <div class="container">
+      <div class="title mb-3">Sígueme en nuestras redes sociales:</div>
+      <a href="#" class="icon-social"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="icon-social"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="icon-social"><i class="bi bi-whatsapp"></i></a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (para navbar toggler) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
